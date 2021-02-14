@@ -297,18 +297,18 @@ function trelloToJiraMigrationByList(trelloBoardId, jiraProjectId, jiraProjectIs
 
 // jiraExploreMetadata();
 // trelloGetBoards();
-// trelloGetBoardLists("asdasdasdasdad").then((lists) => { lists.map((list) => { console.log(list[0] + "\t\t" + list[1]); }) });
+// trelloGetBoardLists("5d239e869cac4a2cc804366f").then((lists) => { lists.map((list) => { console.log(list[0] + "\t\t" + list[1]); }) });
 
 if (
-	// false && // comment this line to enable/disable
+	// false // comment this line to enable/disable
 	true
 ) {
 	trelloToJiraMigrationByList(
 
-					/* trelloBoardId */  "asdasdasdasdad",
-					/* jiraProjectId */  "23213123",
-			/* jiraProjectIssueTypeId */ "5675675",
-		/* toBeMigratedBoardIdsString */ "w87r6we87rw6er rt0y9rty0r9t xc46c5zxc45",
+					/* trelloBoardId */  "5d239e869cac4a2cc804366f",
+					/* jiraProjectId */  "10025",
+			/* jiraProjectIssueTypeId */ "10089",
+		/* toBeMigratedBoardIdsString */ "5d976af83409e44b7b08c04b 5d239e9e23eed90bdfd457be 5d93a906921273232faf5bd6 5d239ea4228b07345f5cd7d8",
 
 		// /* test with single card only */ true
 
